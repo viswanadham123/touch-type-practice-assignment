@@ -74,7 +74,7 @@ const App = () => {
       <input type="text" autoFocus onKeyDown={handleKeyPress} placeholder='Type or Practice here' />
       <div className="stats">
         <p>Keys Pressed: {keysPressed}</p>
-        <p className=''>Accuracy: {accuracy.toFixed(2)}%</p>
+        <p className='accuracy'>Accuracy: {accuracy.toFixed(2)}%</p>
       </div>
     </div>
 
